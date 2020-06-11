@@ -28,6 +28,6 @@ require('./config/passport')(passport);
 app.use('/api/users',users);
 
 //app listen
-app.listen('5000',()=>{
+app.listen('5000||process.env.PORT',()=>{
     console.log("server running on 5000.");
 })
