@@ -1,0 +1,207 @@
+.frontimg{
+  width:100%;
+  height:400px;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+.register{
+  /*opacity: 0.6;
+  background-image:url('img/showcase.jpg');*/
+  
+   position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+
+}
+.landing{
+  position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:100px;
+  margin-top:-24px;
+  margin-bottom:-50px;
+  
+}
+.navbar{
+  box-shadow:2px 5px 10px black;
+ 
+
+}
+
+.landing-inner{
+  padding-top:80px;
+}
+.dark-overlay{
+  background-color:rgba(0,0,0,0.2);
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.card-form{
+  opacity:0.9;
+}
+.latest-profile-img{
+  width:40px;
+  height:40px
+}
+
+.form-control::placeholder{
+  color:#bbb !important
+}
+.submitbutton{
+  background-image: linear-gradient(to right,#77B122,#77B122,#E0FF16);
+  /*clip-path:circle(10% at 0% 0%);
+  transition:clip-path 0.5s ease-in-out;*/
+}
+.submitbutton:hover{
+  background-image: linear-gradient(to right,#77B122,#77B122,#E0FF16);
+ font-size:20px;
+ transition:font-size 1s ease-in-out;
+}
+
+.heading{
+  
+ 
+  background: -webkit-linear-gradient(#E0FF16, #77B122);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*panel prices*/
+.panel {
+    border: 1px solid #E0FF16; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 5px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid ,#77B122;
+    background-color: #77B122 !important;
+    color: black;
+    
+  }
+  .panel-heading {
+    color: #fff !important;
+   background-image: linear-gradient(to right,#77B122,#77B122,#E0FF16);
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #77B122;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #77B122;
+    color: #fff;
+  }
+  .icon {
+  padding: 10px;
+  background: #77B122;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border:1px solid #E0FF16;
+  border-radius:2px
+
+}
+.input{
+  border:1px solid #77B122;
+}
+  .icon:hover{
+     padding: 10px;
+  color: #77B122;
+  background: white;
+  min-width: 50px;
+  text-align: center;
+  border:1px solid #E0FF16;
+  border-radius:2px;
+  transition:1s ease-in;
+
+  }
+  /*
+  .navbar{
+     text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding-top: 15px;
+  box-shadow: 0px 0px 8px 0px;
+  -webkit-box-shadow: 0px 0px 8px 0px;
+  -moz-box-shadow: 0px 0px 8px 0px;
+  
+  width: 100%;
+  z-index:100;
+
+  }*/
+.backimg{
+  height:550px;
+  background-image:url('./img/backimg.jpg');
+  width:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:fixed;
+  z-index:100px
+  
+  
+ 
+}
+.contactus{
+  color:white;
+  margin-top:50px;
+  width:60%;
+  height:545px;
+ background-image: linear-gradient(to right,#77B122,#77B122,#E0FF16);
+
+}
+.icon1{
+   padding: 10px;
+  color: #77B122;
+  background: white;
+  min-width: 50px;
+  text-align: center;
+  border:1px solid #E0FF16;
+  border-radius:2px;
+  transition:1s ease-in;
+
+
+}
+.img1{
+border-radius:50%;
+border:1px solid #77B122;
+box-shadow:2px 5px 10px black;
+width:100px;
+height:100px
+}
+/*Logo*/
+.logo{
+  border-radius:75%;
+  width:40px
+}
+/*Footer*/
+.footer{
+  top:1000px
+}
