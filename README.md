@@ -85,12 +85,12 @@ It is very easy to use if anyone wamts.Just follow the steps.
     "validator": "^13.0.0"
      ```
 
-5. Then type the following commands to install required dependencies of client site i.e Frontent Site while remain at root directory.
+5. Then type the following commands to install required dependencies of client site i.e Frontent Site while remain at root directory
 
-```javascript
+    ```javascript
      npm install  
      ```
-6. After successful installation run the following command to start the application :
+6. After successful installation run the following command to start the application 
       ```javascript
        npm run dev
       ```
