@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 //db connect
-mongoose.connect("mongodb://localhost:27017/CropSellerDB",{useNewUrlParser:true,useUnifiedTopology:true}).then(()=>console.log("server connected")).catch(err=>console.log(err));
+mongoose.connect("mongodb+srv://admin-sarvesh:Sarvesh@21@cluster0-ug5sl.mongodb.net/CropSellerDB",{useNewUrlParser:true,useUnifiedTopology:true}).then(()=>console.log("server connected")).catch(err=>console.log(err));
 
 //passport middleware
 app.use(passport.initialize());
