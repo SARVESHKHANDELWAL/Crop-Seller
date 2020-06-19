@@ -38,6 +38,6 @@ if(process.env.NODE_ENV==='production'){
 }
 
 //app listen
-app.listen(4000||process.env.PORT,()=>{
+app.listen(process.env.PORT||4000,()=>{
     console.log("server running on 4000.");
 })
